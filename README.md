@@ -1,9 +1,8 @@
-.vim
-====
+# .vim
 
 vim config
 
-# Installation:
+## Installation:
 
     git clone git://github.com/nelstrom/dotvim.git ~/.vim
 
@@ -17,3 +16,9 @@ Switch to the `~/.vim` directory, and fetch submodules:
 	cd ~/.vim
 	git submodule init
 	git submodule update
+
+## credit
+
+Inspired by : 
+http://vimcasts.org/episodes/synchronizing-plugins-with-git-submodules-and-pathogen/
+https://github.com/nelstrom/dotvim
