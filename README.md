@@ -27,6 +27,6 @@ Or run update.sh
 
 ## credit
 
-Inspired by : 
+Inspired by:  
 http://vimcasts.org/episodes/synchronizing-plugins-with-git-submodules-and-pathogen/
 https://github.com/nelstrom/dotvim
