@@ -17,6 +17,14 @@ Switch to the `~/.vim` directory, and fetch submodules:
 	git submodule init
 	git submodule update
 
+Or clone then run install.sh
+
+## Update dependencies
+
+	git submodule foreach git pull origin master
+
+Or run update.sh
+
 ## credit
 
 Inspired by : 
