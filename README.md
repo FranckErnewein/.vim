@@ -4,7 +4,7 @@ vim config
 
 ## Installation:
 
-    git clone git://github.com/nelstrom/dotvim.git ~/.vim
+    git clone git://github.com/FranckErnewein/.vim ~/.vim
 
 Create symlinks:
 
