@@ -1,6 +1,6 @@
 # .vim
 
-vim config
+vim configuration and plugin dependencies management based on pathogen and git submodules
 
 ## Installation:
 
@@ -25,13 +25,13 @@ Or clone then run `install.sh`
 
 Or run `update.sh`
 
-## add new plugin
+## Add new plugin
 	
 install plugin as a submodule:
 
 	git submodule add http://github.com/tpope/XXXXXX.git bundle/XXXXXX
 
-## credit
+## Credit
 
 Inspired by:  
 http://vimcasts.org/episodes/synchronizing-plugins-with-git-submodules-and-pathogen/
