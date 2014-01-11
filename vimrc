@@ -1,3 +1,4 @@
+"pathogen
 execute pathogen#infect()
 
 set ruler
@@ -12,5 +13,9 @@ syntax on
 
 filetype plugin on
 
+"jshint
 let g:jshint2_save = 1
+
+"override autocomplete menu color
+highlight Pmenu ctermbg=red ctermfg=white
 
