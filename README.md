@@ -17,13 +17,19 @@ Switch to the `~/.vim` directory, and fetch submodules:
 	git submodule init
 	git submodule update
 
-Or clone then run install.sh
+Or clone then run `install.sh`
 
 ## Update dependencies
 
 	git submodule foreach git pull origin master
 
-Or run update.sh
+Or run `update.sh`
+
+## add new plugin
+	
+install plugin as a submodule:
+
+	git submodule add http://github.com/tpope/XXXXXX.git bundle/XXXXXX
 
 ## credit
 
