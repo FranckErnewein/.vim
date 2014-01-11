@@ -17,5 +17,5 @@ filetype plugin on
 let g:jshint2_save = 1
 
 "override autocomplete menu color
-highlight Pmenu ctermbg=red ctermfg=white
+highlight Pmenu ctermbg=white ctermfg=black
 
