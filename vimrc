@@ -11,6 +11,8 @@ set shiftwidth=2
 
 set expandtab
 
+set expandtab
+
 "syntax on
 let g:solarized_termcolors=256
 let g:solarized_contrast="high"
