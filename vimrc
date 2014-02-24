@@ -9,6 +9,8 @@ set autoindent
 set tabstop=4
 set shiftwidth=4
 
+set expandtab
+
 "syntax on
 let g:solarized_termcolors=256
 let g:solarized_contrast="high"
