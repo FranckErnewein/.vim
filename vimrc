@@ -32,3 +32,6 @@ let g:jshint2_save = 1
 
 "hi clear SpellBad
 "hi SpellBad cterm=underline,bold ctermfg=white ctermbg=black
+
+"prevent new line at end of file
+set fileformats+=dos
