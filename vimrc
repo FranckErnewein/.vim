@@ -37,3 +37,9 @@ let g:jshint2_save = 1
 
 "prevent new line at end of file
 "set fileformats+=dos
+
+"handlebars / mustache binding
+let g:mustache_abbreviations = 1
+
+"highlight OverLength ctermbg=red ctermfg=white guibg=#592929
+"match OverLength /\%81v.\+/
