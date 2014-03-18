@@ -6,8 +6,10 @@ set nu
 
 set smartindent
 set autoindent
-set tabstop=2
-set shiftwidth=2
+set tabstop=4
+set shiftwidth=4
+
+set expandtab
 
 set expandtab
 
@@ -30,3 +32,12 @@ let g:jshint2_save = 1
 
 "hi clear SpellBad
 "hi SpellBad cterm=underline,bold ctermfg=white ctermbg=black
+
+"prevent new line at end of file
+"set fileformats+=dos
+
+"handlebars / mustache binding
+let g:mustache_abbreviations = 1
+
+"highlight OverLength ctermbg=red ctermfg=white guibg=#592929
+"match OverLength /\%81v.\+/
