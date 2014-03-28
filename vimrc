@@ -6,10 +6,8 @@ set nu
 
 set smartindent
 set autoindent
-set tabstop=4
-set shiftwidth=4
-
-set expandtab
+set tabstop=2
+set shiftwidth=2
 
 set expandtab
 
@@ -43,3 +41,10 @@ let g:mustache_abbreviations = 1
 
 "highlight OverLength ctermbg=red ctermfg=white guibg=#592929
 "match OverLength /\%81v.\+/
+"
+"
+:command Trailing %s/\s\+$//
+
+"jsbeautifier based on .editorconfig
+map <c-f> :call JsBeautify()<cr>
+"let g:editorconfig_Beautifier="~/.editorconfig"
