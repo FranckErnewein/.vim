@@ -37,3 +37,6 @@
 [submodule "bundle/vim-jsbeautify"]
 	path = bundle/vim-jsbeautify
 	url = https://github.com/maksimr/vim-jsbeautify.git
+[submodule "/home/fe/.vim/bundle/node"]
+	path = /home/fe/.vim/bundle/node
+	url = https://github.com/moll/vim-node.git
