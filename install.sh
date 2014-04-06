@@ -8,3 +8,5 @@ cd ~/.vim
 git submodule init
 git submodule update
 
+cd ~/.vim/bundle/vim-jsbeautify && git submodule update --init --recursive
+cd -
