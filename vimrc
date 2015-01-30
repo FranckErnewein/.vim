@@ -10,6 +10,7 @@ set tabstop=2
 set shiftwidth=2
 
 set expandtab
+se t_Co=256
 
 "syntax on
 let g:solarized_termcolors=256
