@@ -3,6 +3,7 @@
 root = true
 
 [**.js]
+e4x = true
 indent_style = space
 indent_size = 2
 
@@ -14,3 +15,8 @@ indent_size = 2
 indent_style = space
 indent_size = 2
 brace_style = expand
+
+[**.jsx]
+e4x = true
+indent_style = space
+indent_size = 2
