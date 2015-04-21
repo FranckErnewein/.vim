@@ -35,6 +35,8 @@ let g:syntastic_check_on_wq = 0
 "jshint
 let g:syntastic_javascript_checkers = ['jsxhint']
 
+"html5 tidy
+let g:syntastic_html_tidy_exec = 'tidy5'
 
 "override autocomplete menu color
 "highlight Pmenu ctermbg=white ctermfg=black
