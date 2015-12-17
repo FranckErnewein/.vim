@@ -33,7 +33,7 @@ let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
 
 "jshint
-let g:syntastic_javascript_checkers = ['jsxhint']
+let g:syntastic_javascript_checkers = ['eslint']
 
 "html5 tidy
 let g:syntastic_html_tidy_exec = 'tidy5'
@@ -58,5 +58,6 @@ let g:mustache_abbreviations = 1
 :command Trailing %s/\s\+$//
 
 "jsbeautifier based on .editorconfig
-map <c-f> :call JsBeautify()<cr>
+"map <c-f> :call JsBeautify()<cr>
+map <c-f> :%!esformatter<cr>
 "let g:editorconfig_Beautifier="~/.editorconfig"
