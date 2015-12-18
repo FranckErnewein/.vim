@@ -49,3 +49,6 @@
 [submodule "bundle/vim-glsl"]
 	path = bundle/vim-glsl
 	url = http://github.com/tikhomirov/vim-glsl.git
+[submodule "bundle/vim-esformatter"]
+	path = bundle/vim-esformatter
+	url = https://github.com/millermedeiros/vim-esformatter.git

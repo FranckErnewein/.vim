@@ -59,5 +59,6 @@ let g:mustache_abbreviations = 1
 
 "jsbeautifier based on .editorconfig
 "map <c-f> :call JsBeautify()<cr>
-map <c-f> :%!esformatter<cr>
+map <c-f> :Esformatter<cr>
+"map <c-f> :%!esformatter<cr>
 "let g:editorconfig_Beautifier="~/.editorconfig"
