@@ -23,21 +23,33 @@ filetype plugin on
 
 
 set statusline+=%#warningmsg#
-set statusline+=%{SyntasticStatuslineFlag()}
+"set statusline+=%{SyntasticStatuslineFlag()}
 set statusline+=%*
 set statusline+=%f
 
-let g:syntastic_always_populate_loc_list = 1
-let g:syntastic_auto_loc_list = 1
-let g:syntastic_check_on_open = 1
-let g:syntastic_check_on_wq = 0
+let g:ale_completion_enabled = 1
+let g:ale_fix_on_save = 1
+let g:ale_fixers = {
+  \   'javascript': ['prettier'],
+  \}
+let g:ale_linters = {
+  \   'javascript': ['eslint'],
+  \}
+
+nmap <silent> <C-k> <Plug>(ale_previous_wrap)
+nmap <silent> <C-j> <Plug>(ale_next_wrap)
+
+"let g:syntastic_always_populate_loc_list = 1
+"let g:syntastic_auto_loc_list = 1
+"let g:syntastic_check_on_open = 1
+"let g:syntastic_check_on_wq = 0
 
 "jshint
-let g:syntastic_javascript_checkers = ['eslint']
+"let g:syntastic_javascript_checkers = ['eslint']
 
 "html5 tidy
-let g:syntastic_html_tidy_exec = 'tidy5'
-let g:jsx_ext_required = 0
+"let g:syntastic_html_tidy_exec = 'tidy5'
+"let g:jsx_ext_required = 0
 
 "override autocomplete menu color
 "highlight Pmenu ctermbg=white ctermfg=black
@@ -60,6 +72,6 @@ let g:mustache_abbreviations = 1
 
 "jsbeautifier based on .editorconfig
 "map <c-f> :call JsBeautify()<cr>
-map <c-f> :Esformatter<cr>
+"map <c-f> :Esformatter<cr>
 "map <c-f> :%!esformatter<cr>
 "let g:editorconfig_Beautifier="~/.editorconfig"

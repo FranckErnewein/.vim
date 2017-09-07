@@ -43,12 +43,12 @@
 [submodule "bundle/vim-jsx"]
 	path = bundle/vim-jsx
 	url = http://github.com/mxw/vim-jsx.git
-[submodule "bundle/syntastic"]
-	path = bundle/syntastic
-	url = http://github.com/scrooloose/syntastic.git
 [submodule "bundle/vim-glsl"]
 	path = bundle/vim-glsl
 	url = http://github.com/tikhomirov/vim-glsl.git
 [submodule "bundle/vim-esformatter"]
 	path = bundle/vim-esformatter
 	url = https://github.com/millermedeiros/vim-esformatter.git
+[submodule "bundle/ale"]
+	path = bundle/ale
+	url = http://github.com/w0rp/ale.git
