@@ -52,3 +52,6 @@
 [submodule "bundle/ale"]
 	path = bundle/ale
 	url = http://github.com/w0rp/ale.git
+[submodule "bundle/elm-vim"]
+	path = bundle/elm-vim
+	url = https://github.com/ElmCast/elm-vim.git
