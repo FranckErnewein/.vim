@@ -49,7 +49,7 @@ nmap <silent> <C-j> <Plug>(ale_next_wrap)
 
 "html5 tidy
 "let g:syntastic_html_tidy_exec = 'tidy5'
-"let g:jsx_ext_required = 0
+let g:jsx_ext_required = 0
 
 "override autocomplete menu color
 "highlight Pmenu ctermbg=white ctermfg=black
