@@ -11,3 +11,5 @@ git submodule update
 
 cd ~/.vim/bundle/vim-jsbeautify && git submodule update --init --recursive
 cd -
+
+npm install -g prettier eslint import-js

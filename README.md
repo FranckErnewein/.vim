@@ -4,18 +4,30 @@ vim configuration and plugin dependencies management based on pathogen and git s
 
 ## Installation:
 
-    git clone git://github.com/FranckErnewein/.vim ~/.vim
+```
+git clone git://github.com/FranckErnewein/.vim ~/.vim
+```
 
 Create symlinks:
 
-	ln -s ~/.vim/vimrc ~/.vimrc
-	ln -s ~/.vim/gvimrc ~/.gvimrc
+```
+ln -s ~/.vim/vimrc ~/.vimrc
+ln -s ~/.vim/gvimrc ~/.gvimrc
+```
 
 Switch to the `~/.vim` directory, and fetch submodules:
 
-	cd ~/.vim
-	git submodule init
-	git submodule update
+```
+cd ~/.vim
+git submodule init
+git submodule update
+```
+
+And install node depencies
+
+```
+npm install -g prettier eslint import-js
+```
 
 Or clone then run `install.sh`
 
