@@ -58,3 +58,6 @@
 [submodule "bundle/vim-import-js"]
 	path = bundle/vim-import-js
 	url = git@github.com:Galooshi/vim-import-js.git
+[submodule "bundle/vim-styled-components"]
+	path = bundle/vim-styled-components
+	url = http://github.com/styled-components/vim-styled-components/
