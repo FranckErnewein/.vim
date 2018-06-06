@@ -8,7 +8,7 @@ set smartindent
 set autoindent
 set tabstop=2
 set shiftwidth=2
-set noexpandtab
+set expandtab
 se t_Co=256
 
 "syntax on
