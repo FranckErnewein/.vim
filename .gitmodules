@@ -61,3 +61,6 @@
 [submodule "bundle/vim-styled-components"]
 	path = bundle/vim-styled-components
 	url = http://github.com/styled-components/vim-styled-components/
+[submodule "bundle/vim-surround"]
+	path = bundle/vim-surround
+	url = git@github.com:tpope/vim-surround
