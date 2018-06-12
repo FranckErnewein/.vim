@@ -21,6 +21,14 @@ colorscheme solarized
 
 filetype plugin on
 
+set rtp+=/usr/local/opt/fzf
+
+
+let g:lightline = {
+      \ 'active': {
+      \   'left': [ [ 'mode', 'paste' ], [ 'readonly', 'relativepath', 'modified' ] ]
+      \ }
+      \ }
 
 set statusline+=%#warningmsg#
 "set statusline+=%{SyntasticStatuslineFlag()}
