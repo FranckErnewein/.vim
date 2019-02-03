@@ -1,6 +1,9 @@
 "pathogen
 execute pathogen#infect()
 
+set langmenu=en_US.UTF-8
+language messages en_US.UTF-8
+
 set ruler
 set nu
 
