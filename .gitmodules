@@ -60,7 +60,8 @@
 	url = git@github.com:Galooshi/vim-import-js.git
 [submodule "bundle/vim-styled-components"]
 	path = bundle/vim-styled-components
-	url = http://github.com/styled-components/vim-styled-components/
+	url = git@github.com:styled-components/vim-styled-components.git
+  branch = main
 [submodule "bundle/vim-surround"]
 	path = bundle/vim-surround
 	url = git@github.com:tpope/vim-surround
