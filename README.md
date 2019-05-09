@@ -41,7 +41,7 @@ Or run `update.sh`
 	
 install plugin as a submodule:
 
-	git submodule add http://github.com/XXXXXX.git bundle/XXXXXX
+	git submodule add https://github.com/XXXXXX.git bundle/XXXXXX
 
 ## Credit
 
