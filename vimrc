@@ -12,6 +12,7 @@ Plug 'mattn/emmet-vim'
 Plug 'HerringtonDarkholme/yats'
 Plug 'styled-components/vim-styled-components', { 'branch': 'main' }
 Plug 'vim-scripts/dbext.vim'
+Plug 'jparise/vim-graphql'
 
 call plug#end()
 
