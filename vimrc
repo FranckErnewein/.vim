@@ -4,8 +4,14 @@ call plug#begin('~/.vim/plugged')
 Plug 'https://github.com/altercation/vim-colors-solarized'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'tpope/vim-fugitive'
+"Plug 'jelera/vim-javascript-syntax'
+Plug 'pangloss/vim-javascript'
 Plug 'tasn/vim-tsx'
 Plug 'mxw/vim-jsx'
+Plug 'mattn/emmet-vim'
+Plug 'HerringtonDarkholme/yats'
+Plug 'styled-components/vim-styled-components', { 'branch': 'main' }
+Plug 'vim-scripts/dbext.vim'
 
 call plug#end()
 
@@ -31,3 +37,5 @@ set background=dark
 colorscheme solarized
 
 filetype plugin on
+
+nmap <C-j> :lnext<CR>
