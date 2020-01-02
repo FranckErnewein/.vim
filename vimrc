@@ -22,6 +22,9 @@ language messages en_US.UTF-8
 set ruler
 set nu
 
+"Cocvim required
+set hidden
+
 set smartindent
 set autoindent
 set tabstop=2
@@ -30,13 +33,24 @@ set expandtab
 se t_Co=256
 set laststatus=2
 
-"syntax on
+" Some servers have issues with backup files, see #649 in Cocvim
+set nobackup
+set nowritebackup
+
+" syntax on
 let g:solarized_termcolors=256
 let g:solarized_contrast="high"
 syntax enable
 set background=dark
 colorscheme solarized
 
+
 filetype plugin on
 
-nmap <C-j> :lnext<CR>
+" Use <c-space> to trigger completion.
+inoremap <silent><expr> <c-space> coc#refresh()
+
+"  to navigate diagnostics
+nmap <silent> <C-k> <Plug>(coc-diagnostic-prev)
+nmap <silent> <C-j> <Plug>(coc-diagnostic-next)
+
