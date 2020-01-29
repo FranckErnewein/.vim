@@ -6,13 +6,13 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'tpope/vim-fugitive'
 "Plug 'jelera/vim-javascript-syntax'
 Plug 'pangloss/vim-javascript'
-Plug 'tasn/vim-tsx'
-Plug 'mxw/vim-jsx'
+Plug 'peitalin/vim-jsx-typescript'
 Plug 'mattn/emmet-vim'
 Plug 'HerringtonDarkholme/yats'
 Plug 'styled-components/vim-styled-components', { 'branch': 'main' }
 Plug 'vim-scripts/dbext.vim'
 Plug 'jparise/vim-graphql'
+Plug 'ap/vim-css-color'
 
 call plug#end()
 
