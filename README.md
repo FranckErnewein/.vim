@@ -1,6 +1,6 @@
 # .vim
 
-vim configuration and plugin dependencies management based on pathogen and git submodules
+vim configuration and plugin dependencies management based on [vim plug](https://github.com/junegunn/vim-plug)
 
 ## Installation:
 
