@@ -15,6 +15,7 @@ Plug 'ap/vim-css-color'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'itchyny/lightline.vim'
+Plug 'tpope/vim-rails'
 
 call plug#end()
 
@@ -70,6 +71,9 @@ let g:fzf_action = {
   \ 'ctrl-t': 'tab split',
   \ 'ctrl-x': 'split',
   \ 'ctrl-v': 'vsplit' }
+
+"ag on cursor
+nnoremap <silent> <Leader>ag :Ag <C-R><C-W><CR>
 
 
 " Use tab for trigger completion with characters ahead and navigate.
