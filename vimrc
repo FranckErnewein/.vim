@@ -47,8 +47,10 @@ syntax enable
 set background=dark
 colorscheme solarized
 
-
 filetype plugin on
+
+" bind <leader> as coma 
+let mapleader = ","
 
 " Use <c-space> to trigger completion.
 inoremap <silent><expr> <c-space> coc#refresh()
