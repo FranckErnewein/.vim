@@ -1,4 +1,3 @@
-
 call plug#begin('~/.vim/plugged')
 
 Plug 'altercation/vim-colors-solarized'
@@ -16,6 +15,7 @@ Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'itchyny/lightline.vim'
 Plug 'tpope/vim-rails'
+Plug 'ngmy/vim-rubocop'
 
 call plug#end()
 
