@@ -16,6 +16,7 @@ Plug 'junegunn/fzf.vim'
 Plug 'itchyny/lightline.vim'
 Plug 'tpope/vim-rails'
 Plug 'ngmy/vim-rubocop'
+Plug 'preservim/nerdcommenter'
 
 call plug#end()
 
@@ -119,3 +120,6 @@ let g:lightline = {
       \   'currentfunction': 'CocCurrentFunction'
       \ },
       \ }
+
+" one space after comment for rubycop
+let g:NERDSpaceDelims = 1
