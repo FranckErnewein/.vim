@@ -1,22 +1,31 @@
 call plug#begin('~/.vim/plugged')
 
+"general
 Plug 'altercation/vim-colors-solarized'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
-Plug 'tpope/vim-fugitive'
-"Plug 'jelera/vim-javascript-syntax'
-Plug 'peitalin/vim-jsx-typescript'
-Plug 'mattn/emmet-vim'
-Plug 'HerringtonDarkholme/yats'
-Plug 'styled-components/vim-styled-components', { 'branch': 'main' }
-Plug 'vim-scripts/dbext.vim'
-Plug 'jparise/vim-graphql'
-Plug 'ap/vim-css-color'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'itchyny/lightline.vim'
+Plug 'preservim/nerdcommenter'
+Plug 'tpope/vim-fugitive'
+
+"javascript
+Plug 'mattn/emmet-vim'
+Plug 'othree/yajs.vim'
+Plug 'MaxMEllon/vim-jsx-pretty'
+Plug 'HerringtonDarkholme/yats'
+Plug 'styled-components/vim-styled-components', { 'branch': 'main' }
+Plug 'jparise/vim-graphql'
+
+"css
+Plug 'ap/vim-css-color'
+
+"ruby
 Plug 'tpope/vim-rails'
 Plug 'ngmy/vim-rubocop'
-Plug 'preservim/nerdcommenter'
+
+"SQL
+Plug 'vim-scripts/dbext.vim'
 
 call plug#end()
 
