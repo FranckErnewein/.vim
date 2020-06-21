@@ -62,6 +62,9 @@ filetype plugin on
 " bind <leader> as coma 
 let mapleader = ","
 
+" always display sign error/warning column
+set signcolumn=yes
+
 " Use <c-space> to trigger completion.
 inoremap <silent><expr> <c-space> coc#refresh()
 
