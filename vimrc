@@ -8,6 +8,7 @@ Plug 'junegunn/fzf.vim'
 Plug 'itchyny/lightline.vim'
 Plug 'preservim/nerdcommenter'
 Plug 'tpope/vim-fugitive'
+Plug 'hashivim/vim-terraform'
 
 "javascript
 Plug 'mattn/emmet-vim'
