@@ -25,6 +25,9 @@ Plug 'ap/vim-css-color'
 Plug 'tpope/vim-rails'
 Plug 'ngmy/vim-rubocop'
 
+"Python
+Plug 'nvie/vim-flake8'
+
 "SQL
 Plug 'vim-scripts/dbext.vim'
 
