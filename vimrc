@@ -139,3 +139,8 @@ let g:lightline = {
 
 " one space after comment for rubycop
 let g:NERDSpaceDelims = 1
+
+"clip board"
+set clipboard=unnamedplus
+noremap <Leader>y "*y
+noremap <Leader>Y "+y
