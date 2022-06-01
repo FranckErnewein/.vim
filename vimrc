@@ -17,6 +17,7 @@ Plug 'MaxMEllon/vim-jsx-pretty'
 Plug 'HerringtonDarkholme/yats'
 Plug 'styled-components/vim-styled-components', { 'branch': 'main' }
 Plug 'jparise/vim-graphql'
+Plug 'kristijanhusak/vim-js-file-import', {'do': 'npm install'}
 
 "css
 Plug 'ap/vim-css-color'
@@ -121,6 +122,9 @@ nmap <silent> gr <Plug>(coc-references)
 " provide custom statusline: lightline.vim, vim-airline.
 set statusline^=%{coc#status()}%{get(b:,'coc_current_function','')}
 
+" customize coc error message background for better readability
+highlight CocErrorFloat ctermfg=Darkred guifg=#550000
+
 function! CocCurrentFunction()
     return get(b:, 'coc_current_function', '')
 endfunction
@@ -139,6 +143,7 @@ let g:lightline = {
 
 " one space after comment for rubycop
 let g:NERDSpaceDelims = 1
+
 
 " clip board" FIXME
 " set clipboard=unnamedplus
