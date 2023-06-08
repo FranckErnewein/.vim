@@ -26,6 +26,9 @@ Plug 'ap/vim-css-color'
 Plug 'tpope/vim-rails'
 Plug 'ngmy/vim-rubocop'
 
+"haskell
+Plug 'alx741/vim-stylishask'
+
 "Python
 Plug 'nvie/vim-flake8'
 
@@ -61,10 +64,11 @@ set laststatus=2
 set nobackup
 set nowritebackup
 
-" syntax on
+syntax on
+set re=0
 let g:solarized_termcolors=256
 let g:solarized_contrast="high"
-syntax enable
+" syntax enable
 set background=dark
 colorscheme solarized
 
@@ -150,6 +154,9 @@ let g:lightline = {
 
 " one space after comment for rubycop
 let g:NERDSpaceDelims = 1
+
+" haskel autoformat on save
+let g:stylishask_on_save = 1
 
 
 " clip board" FIXME
