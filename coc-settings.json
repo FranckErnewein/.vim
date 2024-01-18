@@ -26,5 +26,6 @@
       ],
       "filetypes": ["hs", "lhs", "haskell"]
     }
-  }
+  },
+  "coc.preferences.formatOnSave": true
 }
