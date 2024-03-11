@@ -40,6 +40,8 @@ Plug 'udalov/kotlin-vim'
 
 "Rust
 Plug 'rust-lang/rust.vim'
+" for rust LSP check https://rust-analyzer.github.io/manual.html#rustup
+" rustup component add rust-analyzer
 
 call plug#end()
 
