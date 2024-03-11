@@ -38,6 +38,9 @@ Plug 'vim-scripts/dbext.vim'
 "Kotlin
 Plug 'udalov/kotlin-vim'
 
+"Rust
+Plug 'rust-lang/rust.vim'
+
 call plug#end()
 
 
