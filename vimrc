@@ -46,7 +46,7 @@ Plug 'rust-lang/rust.vim'
 call plug#end()
 
 
-let g:coc_global_extensions = ['coc-eslint', 'coc-json', 'coc-prettier', 'coc-tsserver', 'coc-solargraph', 'coc-kotlin']
+let g:coc_global_extensions = ['coc-eslint', 'coc-json', 'coc-prettier', 'coc-tsserver', 'coc-solargraph', 'coc-kotlin', 'coc-go']
 
 set langmenu=en_US.UTF-8
 language messages en_US.UTF-8

@@ -2,7 +2,8 @@
   "suggest.noselect": true,
   "javascript.suggestionActions.enabled": false,
   "javascript.suggest.autoImports": true,
-  "typescript.suggest.autoImports": true,
+  "typescript.preferences.importModuleSpecifier": "relative",
+  "suggest.autoTrigger": "always",
   "suggest.maxCompleteItemCount": 20,
   "eslint.autoFixOnSave": true,
   "diagnostic.errorSign": "•",
@@ -27,5 +28,9 @@
       "filetypes": ["hs", "lhs", "haskell"]
     }
   },
-  "coc.preferences.formatOnSave": true
+  "coc.preferences.formatOnSave": true,
+  "go.goplsOptions": {
+    "go.buildFlags": ["-tags=unit,integration"],
+    "go.testTags": "unit,integration"
+  }
 }
